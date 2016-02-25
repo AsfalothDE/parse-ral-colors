@@ -81,6 +81,8 @@ class RalParser
             if (!$txt) continue;
             array_push($data, $txt);
         }
-        return array_combine($this->mapping, $data);
+        if (count($this->mapping) == count($data)) {
+            return array_combine($this->mapping, $data);
+        }
     }
 }
