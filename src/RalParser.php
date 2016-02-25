@@ -67,7 +67,6 @@ class RalParser
                     if ($return = $this->_addColor($arrCells, $i)) {
                         $arrRal[] = $return;
                     }
-                    break;
                 }
             }
         }
