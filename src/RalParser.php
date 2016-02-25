@@ -54,7 +54,6 @@ class RalParser
     {
         $arrRal = array();
 
-        //$objDom = new \simple_html_dom($strHtml);
         $objDom = new Dom();
         $objDom->loadFromUrl($this->url);
         $arrRows = $objDom->find('div.Section1 table.MsoNormalTable tr');

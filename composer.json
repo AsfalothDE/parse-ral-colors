@@ -11,13 +11,9 @@
     ],
     "require": {
         "php":">=5.3",
-        "simple-html-dom/simple-html-dom": "^1.5",
         "paquettg/php-html-parser": "^1.6"
     },
     "autoload": {
-        "classmap": [
-            "vendor/simple-html-dom/simple-html-dom/"
-        ],
         "psr-4": {
             "AsfalothDe\\": "src/"
         }
