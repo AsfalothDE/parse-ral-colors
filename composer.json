@@ -2,7 +2,7 @@
     "name": "asfaloth-de/parse-ral-colors",
     "description": "A library to parse RAL colors from http://www.ralcolor.com",
     "type": "library",
-    "license": "LGPL",
+    "license":"LGPL-3.0+",
     "authors": [
         {
             "name": "Silvia Ulenberg",
@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php":">=5.3",
         "simple-html-dom/simple-html-dom": "^1.5",
         "paquettg/php-html-parser": "^1.6"
     },
